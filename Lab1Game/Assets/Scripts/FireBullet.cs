@@ -9,7 +9,6 @@ public class FireBullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(bullet);
     }
 
     // Update is called once per frame
