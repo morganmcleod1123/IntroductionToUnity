@@ -16,7 +16,7 @@ public class FireBullet : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Instantiate(bullet);
+            //Instantiate(bullet);
         }
     }
 }
