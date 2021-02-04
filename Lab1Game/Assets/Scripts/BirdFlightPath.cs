@@ -31,6 +31,7 @@ public class BirdFlightPath : MonoBehaviour
         if(transform.position.y < -7)
         {
             Destroy(gameObject);
+            GameManager.Instance.IncScore(-10);
         }
     }
 }
