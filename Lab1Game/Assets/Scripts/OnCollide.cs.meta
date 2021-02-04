@@ -3,7 +3,12 @@ guid: f5dcb8a74e856c946bd8b6fc8ef500b5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - birdcatcher: {fileID: 8196928515151767901, guid: 97556c70f1fb86042ae67e666d99667d,
+      type: 3}
+  - bullet: {fileID: 6024333893547284832, guid: 9fc7193dfac543b4283a4ea23382886a,
+      type: 3}
+  - bird: {fileID: 5223595696752736919, guid: c1388c3eac8456a42b6a93dddd3b32dc, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

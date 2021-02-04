@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class OnCollide : MonoBehaviour
 {
+
+    public GameObject birdcatcher;
+    public GameObject bullet;
+    public GameObject bird;
+
     // Start is called before the first frame update
     void Start()
     {
