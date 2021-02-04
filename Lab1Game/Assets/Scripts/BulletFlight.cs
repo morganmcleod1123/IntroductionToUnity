@@ -16,6 +16,9 @@ public class BulletFlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.y > 6)
+        {
+            Destroy(gameObject);
+        }
     }
 }
