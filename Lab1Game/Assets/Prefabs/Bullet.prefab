@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -6603325872482042048}
   - component: {fileID: -4241878883692359850}
   - component: {fileID: -8413211975698032569}
+  - component: {fileID: -6943572538142926122}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6024333893547284832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.80924827, y: -4.24, z: 0}
+  m_LocalPosition: {x: 0.4844899, y: -3.471, z: 0}
   m_LocalScale: {x: 0.2644, y: 0.3195, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,8 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 34587324d412940a79d530020c957dc0,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: a33de967df8bd7b45893d08c70f12575, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +127,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6024333893547284832}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -151,3 +151,19 @@ MonoBehaviour:
   birdcatcher: {fileID: 0}
   bullet: {fileID: 0}
   bird: {fileID: 0}
+--- !u!58 &-6943572538142926122
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024333893547284832}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.32
