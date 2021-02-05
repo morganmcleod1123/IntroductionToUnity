@@ -5,6 +5,7 @@ using UnityEngine;
 public class LaunchBird : MonoBehaviour
 {
     public GameObject bird;
+    private float wait = 3f;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,11 @@ public class LaunchBird : MonoBehaviour
         for (; ; )
         {
             Instantiate(bird);
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(wait);
+            if (wait > 0.5f)
+            {
+                wait = (float)(wait * 0.95);
+            }
         }
     }
    
