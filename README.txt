@@ -11,10 +11,10 @@ Mechanics - 	The bear follows the mouse.
 		If the birds get past -10 points.
 		Birds slowly spawn faster up to a point.
 
-Aesthetics - 	Forest background
-		Pancake "Bullets"
-		Bird Sprites
-		Bear
+Aesthetics - 	Forest background - Blackwolfdave: https://opengameart.org/content/forest-pass
+		Pancake "Bullets" - Morgan McLeod
+		Bird Sprites - Morgan McLeod
+		Bear - bleutailfly and ScratchIO: https://opengameart.org/content/bears
 
 Joys -		Messing with the different physics and spawn rates.
 		Being able to see changes pushed by the other player almost instantly.
